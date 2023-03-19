@@ -27,4 +27,8 @@ public class BillingController {
             return "login";
         }
     }
+    @PostMapping("/dashboard")
+    public String dashboard() {
+        return "dashboard";
+    }
 }
