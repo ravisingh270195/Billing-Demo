@@ -1,0 +1,18 @@
+package com.billing.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.billing.UserRepository;
+
+@Controller
+public class BillingController {
+	
+	@Autowired
+	private UserRepository userRepo;
+	
+	public String HomePage() {
+		return "Index";
+	}
+
+}

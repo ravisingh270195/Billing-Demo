@@ -1,0 +1,5 @@
+package com.billing.details;
+
+public class UserDetails {
+
+}
